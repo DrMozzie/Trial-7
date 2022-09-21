@@ -582,7 +582,7 @@ const Home = () => {
             src="/background.mp4"
           />
         </div>
-        <div className="absolute flex flex-col h-[100vh] top-[70px] md:top-0 w-full items-center justify-center z-[99] space-y-6 pb-10">
+        <div className="absolute flex flex-col h-[100vh] top-[80px] w-full items-center justify-center z-[99] space-y-6 pb-10">
           {account ? (
             <div
               className="flex flex-col w-full rounded-xl h-[620px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
