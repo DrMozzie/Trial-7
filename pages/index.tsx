@@ -535,7 +535,7 @@ const Home = () => {
           }}
         >
           <a className="cursor-pointer" href="https://www.valeriagames.com/">
-            <img className="w-[3.5vw] h-[5vw]" src="/home.png" alt="" />
+            <img className="w-[40px] h-[60px]" src="/home.png" alt="" />
           </a>
           <ul className="flex flex-row items-center justify-end space-x-8 text-2xl">
             <a
@@ -582,7 +582,7 @@ const Home = () => {
             src="/background.mp4"
           />
         </div>
-        <div className="absolute flex flex-col h-[100vh] w-full items-center justify-center z-[99] space-y-6 pb-10">
+        <div className="absolute flex flex-col h-[100vh] top-[70px] md:top-0 w-full items-center justify-center z-[99] space-y-6 pb-10">
           {account ? (
             <div
               className="flex flex-col w-full rounded-xl h-[580px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
