@@ -582,10 +582,10 @@ const Home = () => {
             src="/background.mp4"
           />
         </div>
-        <div className="absolute flex flex-col h-full pt-[120px] w-full items-center justify-center z-[99] space-y-6 pb-10">
+        <div className="absolute flex flex-col h-full top-[80px] w-full items-center justify-center z-[99] space-y-4 pb-[100px]">
           {account ? (
             <div
-              className="flex flex-col w-full rounded-xl h-[620px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
+              className="flex flex-col w-full rounded-xl h-[620px] relative max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
               style={{
                 backgroundImage:
                   "linear-gradient(0deg,rgba(0,0,0,.5) 50%,rgba(0,0,0,.5) 50%)",
