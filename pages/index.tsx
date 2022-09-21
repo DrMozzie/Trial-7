@@ -540,7 +540,7 @@ const Home = () => {
           <ul className="flex flex-row items-center justify-end space-x-8 text-2xl">
             <a
               className="cursor-pointer"
-              href="https://discord.gg/HsaJUH3K"
+              href="https://discord.com/invite/valeriagames"
               target="_blank"
               rel="noreferrer"
             >
@@ -585,7 +585,7 @@ const Home = () => {
         <div className="absolute flex flex-col h-[100vh] top-[70px] md:top-0 w-full items-center justify-center z-[99] space-y-6 pb-10">
           {account ? (
             <div
-              className="flex flex-col w-full rounded-xl h-[580px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
+              className="flex flex-col w-full rounded-xl h-[620px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"
               style={{
                 backgroundImage:
                   "linear-gradient(0deg,rgba(0,0,0,.5) 50%,rgba(0,0,0,.5) 50%)",
@@ -654,6 +654,11 @@ const Home = () => {
                           <span className="uppercase text-white text-base font-black">
                             Mint opens in {days}d {hours}h {minutes}m {seconds}s
                           </span>
+                          {!isEmpty(proof) && (
+                            <span className="uppercase text-white text-sm font-black">
+                              You are whitelisted
+                            </span>
+                          )}
                         </div>
                       );
                     }
