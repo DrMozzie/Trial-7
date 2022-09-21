@@ -525,10 +525,10 @@ const Home = () => {
   const liveAt = 1663786800;
 
   return (
-    <div className="relative flex flex-col h-full w-full overflow auto font-primary text-white bg-dark">
-      <section className="relative flex flex-col w-full h-[100vh] items-center justify-center">
+    <div className="relative flex flex-col h-full w-full overflow auto font-primary text-white bg-black">
+      <section className="relative flex flex-col w-full h-[100vh] items-center justify-center bg-black overflow-auto">
         <header
-          className="flex-shrink-0 text-white absolute px-10 md:px-20 top-0 left-0 w-full flex flex-row items-center justify-between h-[90px] items-center justify-center z-[100]"
+          className="flex-shrink-0 text-white absolute px-10 md:px-20 top-0 left-0 w-full flex flex-row items-center justify-between h-[80px] items-center justify-center z-[100]"
           style={{
             backgroundImage:
               "linear-gradient(0deg,rgba(0,0,0,.5) 50%,rgba(0,0,0,.5) 50%)",
@@ -572,7 +572,7 @@ const Home = () => {
             </a>
           </ul>
         </header>
-        <div className="relative flex flex-col items-center justify-center z-[1] w-full h-full">
+        <div className="relative flex flex-col items-center justify-center z-[2] w-full h-full">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover"
             autoPlay
@@ -582,7 +582,7 @@ const Home = () => {
             src="/background.mp4"
           />
         </div>
-        <div className="absolute flex flex-col h-[100vh] top-[80px] w-full items-center justify-center z-[99] space-y-6 pb-10">
+        <div className="absolute flex flex-col h-full pt-[120px] w-full items-center justify-center z-[99] space-y-6 pb-10">
           {account ? (
             <div
               className="flex flex-col w-full rounded-xl h-[620px] max-w-[360px] mx-auto p-8 items-center justify-center space-y-8"

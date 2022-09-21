@@ -3,18 +3,18 @@
 /* Change the values in here to match your branding */
 :root {
   /* Background color of the page */
-  /* put the background pic in here and strech it */ 
+  /* put the background pic in here and strech it */
   --background-color: #313133;
 
   /* Color of the text/words */
   --text-color: #fff;
 
   /* Main color of your brand */
-  /* this is 1 of 2 color for button */ 
+  /* this is 1 of 2 color for button */
   --color-primary: #6828b1;
 
   /* Secondary color of your brand */
-  /* this is 2 of 2 color for button */ 
+  /* this is 2 of 2 color for button */
   --color-secondary: #d2d6db;
 
   /* Which font you want to use */
@@ -28,10 +28,33 @@
 
 /* Default design values of the entire document */
 
-body { 
+html {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #231f20;
+}
+
+::-webkit-scrollbar-track {
+  background: #231f20;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6828b1;
+  border-radius: 20px;
+  border: 3px #6828b1;
+}
+
+body {
   background-color: rgb(0, 0, 0);
   font-family: var(--font);
-  color: var(--text-color); 
+  color: var(--text-color);
   margin: 0%;
   text-align: center;
   height: 100%;
