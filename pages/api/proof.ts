@@ -3,9 +3,12 @@ import keccak256 from "keccak256";
 import { ethers } from "ethers";
 import { zipObject } from "lodash";
 
-const addresses = ["0x786E43a1E7Cbacc19b59dcf827659082E88cba9F"];
+const addresses = [
+  "0x786E43a1E7Cbacc19b59dcf827659082E88cba9F",
+  "0x7d26b65599a86f99B477F7Ef6414a5Abca1a5e4e",
+];
 
-const allowances = ["8839"];
+const allowances = ["8839", "10"];
 
 export default async function handler(req, res) {
   const { address } = req.query;
